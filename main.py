@@ -1,12 +1,12 @@
 from flask import Flask, render_template, request
-import openai
+import openai, passax
 from subprocess import Popen
 
 
 
 app = Flask(__name__)
 # window = webview.create_window("DALL_E", app)
-openai.api_key = "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"
+openai.api_key = "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"
 
 @app.route("/")
 def index():
